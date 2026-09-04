@@ -1,1 +1,7 @@
-(()=>{var o=(window.__PZ_ORIGIN__||(location.protocol+"//"+location.host)).replace(/\/+$/,"");var u=new URL(o);var ws=(u.protocol==="https:"?"wss://":"ws://")+u.host;window._CONFIG={wispurl:localStorage.getItem("proxServer")||ws+"/wisp/",bareurl:o+"/api/edge/"};})();
+(() => {
+  // Routes data processing streams through a public operational proxy hub
+  window._CONFIG = {
+    wispurl: "wss://wisp.mercury.net/wisp/",
+    bareurl: "https://bennettg.xyz"
+  };
+})();
